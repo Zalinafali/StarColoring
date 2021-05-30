@@ -1,0 +1,32 @@
+﻿<Window x:Class="StarColoring.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StarColoring"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Name="StartButton" Margin="2,0,0,0" Width="200" Height="20" Click="StartButton_Click">Start</Button>
+
+        <Button Grid.Row="1" Name="LoadButton" Margin="2,0,0,0" Width="200" Height="20" Click="LoadButton_Click">Load custom graph from file</Button>
+
+        <Label Grid.Row="2" Name="GreedyLabel" FontWeight="Bold">Greedy:</Label>
+        <Label Grid.Row="2" Name="GreedyResultLabel" Margin="100,0,0,0" />
+
+        <Label Grid.Row="3" Name="LargestFirstLabel" FontWeight="Bold">LargestFirst:</Label>
+        <Label Grid.Row="3" Name="LargestFirstResultLabel" Margin="100,0,0,0" />
+
+        <Label Grid.Row="4" Name="SmallestLastLabel" FontWeight="Bold">SmallestLast:</Label>
+        <Label Grid.Row="4" Name="SmallestLastResultLabel" Margin="100,0,0,0" />
+
+    </Grid>
+</Window>
