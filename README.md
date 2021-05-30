@@ -17,11 +17,12 @@ File has 3 sections:
 - vertices (with a number of vertices)
 - edges (encoded as a pair of vertices, which are joined by an edge)
 
-Example of a custom graph file:
+Example of a custom graph file content:
 
 name:TestGraph;
 vertices:5;
 edges:0-1,1-2,2-3,3-4;
 
+Graph represented in the file:
 ![TestGraph](https://user-images.githubusercontent.com/38260620/120112714-3a668b80-c177-11eb-9f45-97544654b22d.png)
 
