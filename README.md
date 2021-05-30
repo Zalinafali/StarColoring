@@ -24,5 +24,6 @@ vertices:5;
 edges:0-1,1-2,2-3,3-4;
 
 Graph represented in the file:
+
 ![TestGraph](https://user-images.githubusercontent.com/38260620/120112714-3a668b80-c177-11eb-9f45-97544654b22d.png)
 
