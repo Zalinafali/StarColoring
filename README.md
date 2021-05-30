@@ -20,8 +20,8 @@ File has 3 sections:
 Example of a custom graph file:
 
 name:TestGraph;
-vertices:6;
-edges:0-1,1-2,2-3,3-4,4-5,5-1;
+vertices:5;
+edges:0-1,1-2,2-3,3-4;
 
 ![TestGraph](https://user-images.githubusercontent.com/38260620/120112714-3a668b80-c177-11eb-9f45-97544654b22d.png)
 
