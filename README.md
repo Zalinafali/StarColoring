@@ -2,7 +2,7 @@
 
 Simple program for finding star chromatic number of a given graph in WPF.
 
-# custom algortihms implemented:
+# Custom algortihms implemented:
 - Greedy
 - Largest First
 - Smallest Last
