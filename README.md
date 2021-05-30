@@ -19,9 +19,9 @@ File has 3 sections:
 
 Example of a custom graph file content:
 
-name:TestGraph;
-vertices:5;
-edges:0-1,1-2,2-3,3-4;
+  name:TestGraph;
+  vertices:5;
+  edges:0-1,1-2,2-3,3-4;
 
 Graph represented in the file:
 
